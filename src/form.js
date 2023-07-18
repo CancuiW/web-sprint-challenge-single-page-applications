@@ -9,7 +9,7 @@ import axios from "axios";
 export default function Form(props){
    
    
-    const initial = {  name: "", size: "", topping: { sausage: false, bacon:false, meatball: false, mushrooms:false },instructions:""}  
+    const initial = { name: "", size: "", topping: { sausage: false, bacon: false, meatball: false, mushrooms: false }, instructions: "Here are the special instructions" }  
     
 
     const [data,setData]=useState(initial)
